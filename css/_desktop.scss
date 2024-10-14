@@ -1,18 +1,18 @@
 body {
     background-color: greenyellow;
-  }
+}
 
-  main {
+main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 16px;
-  }
+}
 
-  header {
+header {
     flex-direction: column;
-  }
+}
 
-  .page1 {
+.page1 {
     grid-column: span 11;
     min-height: 100vh;
     .top, .bottom {
@@ -39,4 +39,5 @@ body {
             grid-column: span 6;
         }
     }
-  }
+}
+
