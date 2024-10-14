@@ -64,5 +64,22 @@ header {
         grid-column: span 4;
     }
 
+    .menu-item {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(11, 1fr);
+        grid-column: span 11;
+
+        .menu-name {
+            grid-column: span 4;
+        }
+        .menu-info {
+            grid-column: span 6;
+        }
+        .menu-price {
+            grid-column: span 1;
+        }
+    }
 }
+
 
