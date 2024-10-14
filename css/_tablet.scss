@@ -1,3 +1,42 @@
 body {
     background-color: palevioletred;
   }
+
+main {
+    display: grid;
+    grid-template-columns: 10% repeat(4, 1fr);
+    gap: 16px;
+}
+
+header {
+    flex-direction: column;
+}
+
+.page1 {
+    grid-column: span 4;
+    min-height: 100vh;
+    .top, .bottom {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .top {
+        .page-title {
+            grid-column: span 1;
+        }
+
+        .text {
+            grid-column: span 3;
+        }
+    }
+
+    .bottom {
+        .image {
+            grid-column: span 2;
+        }
+        .text {
+            grid-column: span 2;
+        }
+    }
+}
