@@ -10,6 +10,10 @@ main {
 
 header {
     flex-direction: column;
+    h1 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
 }
 
 .page1 {
