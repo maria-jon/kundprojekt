@@ -8,17 +8,6 @@ main {
     gap: 16px;
 }
 
-header {
-    flex-direction: column;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    h1 {
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-    }
-}
-
 .page1 {
     grid-column: span 11;
     min-height: 100vh;
@@ -49,7 +38,7 @@ header {
 }
 
 .page2 {
-    grid-column: 2 / span 11;
+    grid-column: span 11;
     min-height: 100vh;
     .images, .menu-list {
         display: grid;
