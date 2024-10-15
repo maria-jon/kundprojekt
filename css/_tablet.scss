@@ -1,5 +1,5 @@
 body {
-    background-color: palegoldenrod;
+    background-color: palevioletred;
   }
 
 main {
@@ -49,7 +49,7 @@ header {
 }
 
 .page2 {
-    grid-column: span 5;
+    grid-column: 2 / span 5;
     min-height: 100vh;
     .images, .menu-list {
         display: grid;
@@ -84,7 +84,7 @@ header {
 }
 
 .page3 {
-    grid-column: span 5;
+    grid-column: 2 / span 5;
     min-height: 100vh;
     .top, .bottom {
         display: grid;
