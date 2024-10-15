@@ -2,6 +2,8 @@
 
 @import "mobile";
 
+@import "colors";
+
 @media screen and (min-width: 640px) {
   @import "tablet";
 }
