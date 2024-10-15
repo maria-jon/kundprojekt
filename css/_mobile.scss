@@ -86,12 +86,29 @@ header {
     
 }
 
+img {
+    max-width: 90%;
+    height: auto;
+}
+
 .menu-item {
     background-color: white;
     border-style: solid none;
     border-width: 2px;
     border-color: black;
     margin-bottom: 16px;
+}
+
+.page3 {
+    .bottom {
+        position: relative;
+    }
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 /* --------- FORM ----------*/
@@ -113,4 +130,5 @@ header {
         flex: 1;
         }
     }
+
 }
