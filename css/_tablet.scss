@@ -93,9 +93,8 @@ header {
     .top {
         grid-column: span 2;
     }
-    
     .bottom {
-        grid-column: 3;
+        grid-column: span 3;
     }
     
 }
