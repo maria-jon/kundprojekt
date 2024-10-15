@@ -39,7 +39,7 @@ main {
 
 
 .page2 {
-    grid-column: span 11;
+    grid-column: 2 / 12;
     min-height: 100vh;
     .images, .menu-list {
         display: grid;
@@ -73,3 +73,31 @@ main {
 }
 
 
+.page3 {
+    grid-column: 2 / 12;
+    min-height: 100vh;
+    .top, .bottom {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(11, 1fr);
+    }
+
+    .top {
+        .page-title {
+            grid-column: span 4;
+        }
+
+        .text {
+            grid-column: span 7;
+        }
+    }
+
+    .bottom {
+        .image {
+            grid-column: span 5;
+        }
+        .text {
+            grid-column: span 6;
+        }
+    }
+}
