@@ -1,5 +1,9 @@
+$green: #00ff37;
+$yellow: #fff236; 
+$purple: hsl(263 100% 73%);
+
 body {
-    background-color: green;
+    background-color: $yellow;
 }
 
 header {
@@ -36,7 +40,7 @@ header {
             display: block;
             width: 30px;
             height: 4px;
-            background-color: yellow;
+            background-color: $yellow;
             border-radius: 6px;
             margin-bottom: 4px;
         }
@@ -99,7 +103,23 @@ img {
     margin-bottom: 16px;
 }
 
+.page1 {
+    background-color: black;
+
+    .top {
+        color: $green;
+    }
+    .bottom {
+        .text {
+            background-color: white;
+            color: $purple;
+        }
+    }
+}
+
 .page3 {
+    background-color: $green;
+    
     .image {
         position: relative;
         z-index: -1;
@@ -144,7 +164,7 @@ img {
 
     .form-buttons {
         display: flex;
-        
+
         input {
         flex: 1;
         }

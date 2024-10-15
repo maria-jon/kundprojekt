@@ -1,7 +1,3 @@
-body {
-    background-color: palevioletred;
-  }
-
 main {
     display: grid;
     grid-template-columns: 10% repeat(5, 1fr);
@@ -20,6 +16,8 @@ header {
 }
 
 .page1 {
+    background-color: black;
+
     grid-column: span 5;
     min-height: 100vh;
     .top, .bottom {
