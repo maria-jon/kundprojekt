@@ -2,6 +2,40 @@ $green: #00ff37;
 $yellow: #fff236; 
 $purple: hsl(263 100% 73%);
 
+$jockey: "Jockey One", sans-serif;
+$roboto: "Roboto Condensed", serif;
+
+/*------ FONTS -------*/
+
+h1 {
+    font-family: $jockey;
+    text-transform: uppercase;    
+}
+
+p {
+    font-family: $jockey;
+    font-size: 1.5rem;
+}
+
+.explore-menu {
+    font-family: $jockey;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu-item {
+    font-family: $jockey;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    .menu-info {
+        font-family: $roboto;
+        font-size: 1rem;
+        text-transform: none;
+    }
+}
+
+/*------------------------*/
 body {
     background-color: $yellow;
 }
