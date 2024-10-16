@@ -19,7 +19,7 @@ header {
 
     input {
         position: fixed;
-        z-index: 2;
+        z-index: 9;
         width: 35px;
         height: 35px;
         opacity: 0;
@@ -32,7 +32,7 @@ header {
         background: transparent;
         border: 0;
         position: fixed;
-        z-index: 3;
+        z-index: 10;
         pointer-events: none;
         margin: 0;
     
@@ -119,17 +119,17 @@ img {
 
 .page3 {
     background-color: $green;
-    
+
     .image {
         position: relative;
-        z-index: -1;
+        z-index: 1;
     }
     .center {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 1;
+        z-index: 2;
     }
 
     .top, .bottom {
