@@ -78,15 +78,15 @@ header {
     .menu-item {
         display: grid;
         gap: 16px;
-        grid-template-columns: repeat(5, 1fr);
-        grid-column: span 5;
+        grid-template-columns: repeat(6, 1fr);
+        grid-column: span 6;
         margin-bottom: 0;
 
         .menu-name {
             grid-column: span 2;
         }
         .menu-info {
-            grid-column: span 2;
+            grid-column: span 3;
         }
         .menu-price {
             grid-column: span 1;
