@@ -1,7 +1,10 @@
+$gap: 16px;
+
 main {
     display: grid;
     grid-template-columns: 10% repeat(5, 1fr);
-    gap: 16px;
+    gap: $gap;
+    margin-right: $gap;
 }
 
 header {
@@ -17,12 +20,11 @@ header {
 
 .page1 {
     background-color: black;
-
     grid-column: span 5;
     min-height: 100vh;
     .top, .bottom {
         display: grid;
-        gap: 16px;
+        gap: $gap;
         grid-template-columns: repeat(5, 1fr);
     }
 
@@ -54,7 +56,7 @@ header {
     min-height: 100vh;
     .images, .menu-list {
         display: grid;
-        gap: 16px;
+        gap: $gap;
         grid-template-columns: repeat(4, 1fr);
     }
     
@@ -71,7 +73,7 @@ header {
 
     .menu-item {
         display: grid;
-        gap: 16px;
+        gap: $gap;
         grid-template-columns: repeat(6, 1fr);
         grid-column: span 6;
         margin-bottom: 0;
@@ -92,7 +94,7 @@ header {
     grid-column: 2 / span 5;
     min-height: 100vh;
     display: grid;
-    gap: 16px;
+    gap: $gap;
     grid-template-columns: repeat(5, 1fr);
 
     .top {
