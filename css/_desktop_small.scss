@@ -3,17 +3,13 @@ body {
 }
 
 main {
-    display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 16px;
 }
 
 .page1 {
     grid-column: span 11;
     min-height: 100vh;
     .top, .bottom {
-        display: grid;
-        gap: 16px;
         grid-template-columns: repeat(11, 1fr);
     }
 
@@ -42,8 +38,6 @@ main {
     grid-column: 2 / span 11;
     min-height: 100vh;
     .images, .menu-list {
-        display: grid;
-        gap: 16px;
         grid-template-columns: repeat(11, 1fr);
     }
 
@@ -55,8 +49,6 @@ main {
     }
 
     .menu-item {
-        display: grid;
-        gap: 16px;
         grid-template-columns: repeat(11, 1fr);
         grid-column: span 11;
 
@@ -76,8 +68,6 @@ main {
 .page3 {
     grid-column: 2 / span 11;
     min-height: 100vh;
-    display: grid;
-    gap: 16px;
     grid-template-columns: repeat(11, 1fr);
 
     .top {
