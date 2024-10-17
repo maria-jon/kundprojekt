@@ -47,6 +47,8 @@ header {
         }
         .text {
             grid-column: span 3;
+            margin-right: $gap;
+            border-left: $gap solid $yellow;
         }
     }
 }
