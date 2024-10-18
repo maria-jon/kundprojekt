@@ -256,4 +256,10 @@ img {
         }
     }
 
+    input[type=reset] {
+        background-color: $purple;
+    }
+    input[type=submit] {
+        background-color: $yellow;
+    }
 }
