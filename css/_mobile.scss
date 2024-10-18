@@ -23,19 +23,17 @@ p {
 .page1 {
     .page-title {
         text-transform: uppercase; 
-        text-align: end; 
 
-        div:nth-child(1) {
+        span:nth-child(1) {
             color: $purple;
             font-size: clamp(1rem, 10vw, 2rem);
         }
-        div:nth-child(2) {
+        span:nth-child(2) {
             color: $green;
             font-size: clamp(5rem, 30vw, 8rem);
         }
-        div:nth-child(3) {
+        span:nth-child(3) {
             color: $yellow;
-            text-align: center;
             font-size: clamp(1rem, 10vw, 2rem);
         }
     }
@@ -85,12 +83,7 @@ body {
     background-color: $yellow;
 }
 /*----------*/
-h2 {
-    span:nth-child(1) {
-        position: absolute;
-        right: 1rem;
-    }
-}
+
 /*----------------------------------------------*/
 
 header {
