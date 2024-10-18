@@ -186,9 +186,10 @@ img {
 .menu-item {
     background-color: white;
     border-style: solid none;
-    border-width: 2px;
+    border-width: 0.1rem;
     border-color: black;
-    margin: 1rem, 1rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
     span {
         text-transform: uppercase;
         font-family: $courier;
