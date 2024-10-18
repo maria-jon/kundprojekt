@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    text-transform: uppercase;    
+    text-transform: uppercase; 
 }
 
 p {
@@ -84,6 +84,14 @@ p {
 body {
     background-color: $yellow;
 }
+/*----------*/
+h2 {
+    span:nth-child(1) {
+        position: absolute;
+        right: 1rem;
+    }
+}
+/*----------------------------------------------*/
 
 header {
     display: flex;
@@ -95,6 +103,9 @@ header {
     z-index: 100;
     h1 {
         margin: 0;
+        font-size: 3em;
+        letter-spacing: 0.1rem;
+        padding-right: 0.5rem;
     }
 
     /* -------- NAVBAR BUTTON -------*/
