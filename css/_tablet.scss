@@ -1,5 +1,30 @@
 $gap: 16px;
 
+/*----------- FONTS -----------*/
+
+.page1 {
+    .page-title {
+        text-transform: uppercase;  
+        text-align: end;  
+    
+        div:nth-child(1) {
+            color: $purple;
+            font-size: clamp(1rem, 5vw, 2rem);
+        }
+        div:nth-child(2) {
+            color: $green;
+            font-size: clamp(3rem, 20vw, 6rem);
+        }
+        div:nth-child(3) {
+            color: $yellow;
+            text-align: center;
+            font-size: clamp(1rem, 5vw, 2rem);
+        }
+    }
+}
+
+/*----------------------------*/
+
 main {
     display: grid;
     grid-template-columns: 10% repeat(5, 1fr);
