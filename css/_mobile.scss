@@ -23,7 +23,7 @@ p {
     .page-title {
         text-transform: uppercase; 
         text-align: end; 
-    
+
         div:nth-child(1) {
             color: $purple;
             font-size: clamp(1rem, 10vw, 2rem);

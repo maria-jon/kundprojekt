@@ -6,6 +6,7 @@ $gap: 16px;
     .page-title {
         text-transform: uppercase;  
         text-align: end;  
+        line-height: 1;
     
         div:nth-child(1) {
             color: $purple;
