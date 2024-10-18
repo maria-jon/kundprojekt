@@ -41,6 +41,11 @@ header {
     h1 {
         writing-mode: vertical-rl;
         text-orientation: upright;
+        font-size: clamp(1.5em, 6vh, 4em);
+        padding: 0 0 0.5rem 0;
+        letter-spacing: -0.5rem;
+        align-self: center;
+
     }
 }
 
