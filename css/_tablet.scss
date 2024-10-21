@@ -136,6 +136,13 @@ header {
     }
     .bottom {
         grid-column: span 3;
+        display: flex;
+        justify-content: center;
+        .image {
+            align-self: center;
+            max-width: 85%;
+            height: 80%;
+        }
     }
 }
 
