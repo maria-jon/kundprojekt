@@ -106,29 +106,29 @@ header {
     input {
         position: fixed;
         z-index: 998;
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         opacity: 0;
-        margin: 0;
+        margin: 0.3rem;
     }
 
     button {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         background: transparent;
         border: 0;
         position: fixed;
         z-index: 999;
         pointer-events: none;
-        margin: 0;
+        margin: 0.3rem;
     
         span {
             display: block;
-            width: 30px;
-            height: 4px;
+            width: 40px;
+            height: 6px;
             background-color: $yellow;
-            border-radius: 6px;
-            margin-bottom: 4px;
+            border-radius: 8px;
+            margin-bottom: 6px;
         }
     }
     
