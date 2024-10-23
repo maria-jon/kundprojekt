@@ -76,11 +76,14 @@ p {
 .page3 {
     .top {
         text-transform: uppercase;
-        font-size: 2rem;
-        margin: 0;
+        font-size: 1.6rem;
+        margin: 0 0.1rem 0 0.3rem;
         h3 {
             font-size: 2.5rem;
             margin: 0;
+        }
+        input {
+            font-size: 1.6rem;
         }
         .form-buttons {
             input {
