@@ -264,11 +264,23 @@ img {
         color: $green;
     }
     .bottom {
+        .image {
+            position: relative;
+            .arrow {
+                position: absolute;
+                bottom: 1vh;
+                left: 1vw;
+                max-width: 5vw;
+                max-height: auto;
+                transform: rotate(90deg);
+            }
+        }
         .text {
             background-color: white;
             color: $purple;
         }
     }
+
 }
 
 .page3 {
