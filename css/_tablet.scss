@@ -73,6 +73,12 @@ header {
         bottom: 5px;
         .image {
             grid-column: span 2;
+            .arrow {
+                bottom: 1vh;
+                left: 1vw;
+                max-width: 5vw;
+                max-height: auto;
+            }
         }
         .text {
             grid-column: span 3;
