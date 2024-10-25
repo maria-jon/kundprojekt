@@ -61,6 +61,10 @@ p {
     font-size: 2rem;
     text-transform: uppercase;
     color: black;
+    a:link, a:visited {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 .menu-item {
@@ -207,6 +211,17 @@ header {
 }
 
 /* ---------------------------------- */ 
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 
 
 img {
