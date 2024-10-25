@@ -95,6 +95,9 @@ p {
         .center {
             color: $blue;
             text-shadow: black -2px -2px;
+            p {
+                font-size: 1.5rem;
+            }
         }
     }
 }
@@ -309,15 +312,17 @@ img {
     }
 
     .bottom {
-
         .image {
-
             img {
                 display: block;
                 margin: auto;
                 max-height: 100%;
                 filter: blur(0.2rem)
             }
+        }
+        .contact {
+            display: flex;
+            gap: 1vw;
         }
     }
 }
