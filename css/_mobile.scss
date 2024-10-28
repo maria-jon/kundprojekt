@@ -364,12 +364,12 @@ header {
         input {
         flex: 1;
         }
-    }
 
-    input[type=reset] {
-        background-color: $purple;
-    }
-    input[type=submit] {
-        background-color: $yellow;
+        input[type=reset] {
+            background-color: $purple;
+        }
+        input[type=submit] {
+            background-color: $yellow;
+        }
     }
 }
