@@ -116,6 +116,24 @@ body {
 }
 /*----------*/
 
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+}
+
 /*----------------------------------------------*/
 
 header {
@@ -211,24 +229,6 @@ header {
 }
 
 /* ---------------------------------- */ 
-
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}
-
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: auto;
-}
 
 .menu-item {
     background-color: white;
