@@ -1,8 +1,8 @@
 @import "vendor/normalize";
 
-@import "mobile";
+@import "variables";
 
-@import "colors";
+@import "mobile";
 
 @media screen and (min-width: 640px) {
   @import "tablet";
