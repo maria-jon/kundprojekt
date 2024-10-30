@@ -34,6 +34,21 @@
     }
   }
 
+  /* ------------ OPEN / CLOSE HOVER ANIMATION ------------ */
+  input:checked + .menu button span {
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+  input:checked + .menu button span:nth-child(2) {
+    opacity: 0;
+  }
+  input:checked + .menu button span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  input:checked + .menu button span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
   /* ------------ ARROW HOVER ANIMATION ------------ */
   .page1 {
     .arrow {
