@@ -30,6 +30,10 @@ p {
     font-size: 1.8rem;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
 .page1 {
     .page-title {
         text-transform: uppercase; 
@@ -80,20 +84,18 @@ p {
                 left: 0;
             }
         }
+        .explore-menu {
+            font-size: 2rem;
+            text-transform: uppercase;
+            color: black;
+            a:link, a:visited {
+                color: black;
+            }
+        }
     }
 }
 
-.page2 {
-    .explore-menu {
-        font-size: 2rem;
-        text-transform: uppercase;
-        color: black;
-        a:link, a:visited {
-            color: black;
-            text-decoration: none;
-        }
-    }
-    
+.page2 {    
     .menu-item {
         font-size: 1.5rem;
         text-transform: uppercase;
@@ -131,14 +133,12 @@ p {
                 font-size: 1.5rem;
                 a:link, a:visited {
                     color: $blue;
-                    text-decoration: none;
                 }
             }
         }
     }
     a:link, a:visited {
         color: black;
-        text-decoration: none;
     }
 }
 
@@ -160,7 +160,6 @@ header {
     }
     a:link, a:visited {
         color: white;
-        text-decoration: none;
     }
 
     /* ------------ NAVBAR BUTTON ----------- */
