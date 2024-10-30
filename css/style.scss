@@ -17,6 +17,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  /* ------------ BURGER HOVER ANIMATION ------------ */
   header {
     input:hover + .menu button span {
       transition: all 0.3s ease-in-out;
@@ -32,7 +33,8 @@
       transform: translateX(-5px);
     }
   }
-  
+
+  /* ------------ ARROW HOVER ANIMATION ------------ */
   .page1 {
     .arrow {
       transition: 150ms ease-in-out;
