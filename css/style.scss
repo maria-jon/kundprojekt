@@ -47,14 +47,24 @@
     transform: rotate(-45deg);
   }
 
-  /* ------------ ARROW HOVER ANIMATION ------------ */
+  /* ------------ WHITE ARROW HOVER ANIMATION ------------ */
   .page1 {
     .arrow {
       transition: 150ms ease-in-out;
     }
     .image:hover .arrow {
       transition: 250ms ease-in-out;
-      transform: translateY(0.6rem) rotate(90deg);
+      transform: translateY(0.5rem) rotate(90deg);
+    }
+      /* ------------ BLACK ARROW HOVER ANIMATION ------------ */
+    .text {
+      .arrow {
+        transition: 150ms ease-in-out;
+      }
+      .explore-menu:hover .arrow {
+        transition: 250ms;
+        transform: translateX(0.3rem);
+      }
     }
   }
 }
