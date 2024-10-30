@@ -68,22 +68,6 @@ a:link, a:visited {
         }
     }
     .bottom {
-        .image {
-            position: relative;
-            bottom: 0;
-            left: 0;
-            .arrow {
-                color: #FFF;
-                position: absolute;
-                left: 0;
-                bottom: 0;
-            }
-            img {
-                position: relative;
-                bottom: 0;
-                left: 0;
-            }
-        }
         .explore-menu {
             font-size: 2rem;
             text-transform: uppercase;
@@ -288,10 +272,13 @@ header {
     .bottom {
         .image {
             position: relative;
+            .lettuce {
+                position: relative;
+            }
             .arrow {
                 position: absolute;
-                bottom: 1vh;
-                left: 1vw;
+                left: 0;
+                bottom: 0;
                 max-width: 10vw;
                 max-height: auto;
                 transform: rotate(90deg);

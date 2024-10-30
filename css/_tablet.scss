@@ -64,8 +64,12 @@ header {
     .bottom {
         .image {
             grid-column: span 5;
+            .lettuce {
+                position: absolute;
+                bottom: 0;
+            }
             .arrow {
-                bottom: 2vh;
+                bottom: 5vh;
                 left: 1vw;
                 max-width: 5vw;
                 max-height: auto;
