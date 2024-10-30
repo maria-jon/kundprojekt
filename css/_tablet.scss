@@ -62,6 +62,8 @@ header {
     }
 
     .bottom {
+        position: absolute;
+        bottom: 0;
         .image {
             grid-column: span 5;
             .lettuce {
