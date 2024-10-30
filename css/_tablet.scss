@@ -87,17 +87,14 @@ header {
         gap: $gap;
         grid-template-columns: repeat(4, 1fr);
     }
-    
     .images {
         div:first-of-type {
             grid-column: span 4
         }
         div:nth-child(2), div:nth-child(3) {
             grid-column: span 2;
-        }
-            
+        }        
     }
-
     .menu-item {
         display: grid;
         gap: $gap;
