@@ -294,6 +294,17 @@ header {
         }
     }
 }
+.page2 {
+    .images {
+        .image {
+            object-fit: cover;
+            overflow: hidden;
+            max-height: 50vh;
+            object-position: 50% 50%;
+        }
+    }
+
+}
 
 .page3 {
     background-color: $green;
