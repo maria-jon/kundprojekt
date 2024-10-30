@@ -50,15 +50,6 @@ main {
         }
     }
 
-    /*
-    .image-small {
-        grid-column: span 3;
-    }
-    .image {
-        grid-column: span 4;
-    }
-    */
-
     .menu-item {
         grid-template-columns: repeat(11, 1fr);
         grid-column: span 11;

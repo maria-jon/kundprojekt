@@ -1,5 +1,23 @@
+body {
+    background-color: $yellow;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
 
-/*------ FONTS -------*/
+img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+}
+
+/* --------------- FONTS ------------------- */
 body {
     font-family: $jockey;
 }
@@ -44,26 +62,6 @@ p {
             position: relative;
             top: 15%; left: 5%;
         }
-
-
-        /*
-        span:nth-child(1) {
-            color: $purple;
-            font-size: clamp(1.5rem, 2.5vw, 4rem);
-            position: relative;
-            top: 5px; right: 0px; 
-        }
-        span:nth-child(2) {
-            color: $green;
-            font-size: clamp(1.5rem, 10vw, 4rem);
-            position: relative;
-            top: 50px; left: 10px; 
-        }
-        span:nth-child(3) {
-            color: $yellow;
-            font-size: clamp(1.5rem, 2.5vw, 4rem);
-        }
-        */
     }
     .bottom {
         .image {
@@ -85,23 +83,25 @@ p {
     }
 }
 
-.explore-menu {
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: black;
-    a:link, a:visited {
+.page2 {
+    .explore-menu {
+        font-size: 2rem;
+        text-transform: uppercase;
         color: black;
-        text-decoration: none;
+        a:link, a:visited {
+            color: black;
+            text-decoration: none;
+        }
     }
-}
-
-.menu-item {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    .menu-info {
-        font-family: $roboto;
-        font-size: 1rem;
-        text-transform: none;
+    
+    .menu-item {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        .menu-info {
+            font-family: $roboto;
+            font-size: 1rem;
+            text-transform: none;
+        }
     }
 }
 
@@ -143,30 +143,6 @@ p {
 }
 
 /*----------------------------------------------*/
-body {
-    background-color: $yellow;
-}
-/*----------*/
-
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}
-
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: auto;
-}
-
-/*----------------------------------------------*/
 
 header {
     display: flex;
@@ -187,7 +163,7 @@ header {
         text-decoration: none;
     }
 
-    /* -------- NAVBAR BUTTON -------*/
+    /* ------------ NAVBAR BUTTON ----------- */
 
     input {
         position: fixed;
@@ -249,7 +225,7 @@ header {
     
 }
 
-/* ---------------------------------- */ 
+/* ---------------------------------------- */ 
 
 .menu-item {
     background-color: white;
@@ -267,7 +243,7 @@ header {
     }
 }
 
-/*-------------- LABELS ------------*/
+/* ---------------- MENU LABELS ------------------ */
 .new {
     background-color: $purple;
     transform: rotate(2deg);
@@ -302,7 +278,8 @@ header {
     }
 }
 
-/*------------------------------*/
+/* ----------------------------------------- */
+
 .page1 {
     background-color: black;
 
@@ -326,7 +303,6 @@ header {
             color: $purple;
         }
     }
-
 }
 
 .page3 {
@@ -367,7 +343,7 @@ header {
     }
 }
 
-/* --------- FORM ----------*/
+/* ----------------- FORM -------------------*/
 
 .form {
 
@@ -381,7 +357,6 @@ header {
 
     .form-buttons {
         display: flex;
-
         input {
         flex: 1;
         }
