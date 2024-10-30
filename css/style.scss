@@ -18,20 +18,18 @@
 
 @media (prefers-reduced-motion: no-preference) {
   /* ------------ BURGER HOVER ANIMATION ------------ */
-  header {
-    input:hover + .menu button span {
-      transition: all 0.3s ease-in-out;
-    }
-    
-    input:hover + .menu button span:nth-child(1) {
-      transform: translateX(-5px);
-    }
-    input:hover + .menu button span:nth-child(2) {
-      transform: translateX(5px);
-    }
-    input:hover + .menu button span:nth-child(3) {
-      transform: translateX(-5px);
-    }
+  input:hover + .menu button span {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  input:hover + .menu button span:nth-child(1) {
+    transform: translateX(-5px);
+  }
+  input:hover + .menu button span:nth-child(2) {
+    transform: translateX(5px);
+  }
+  input:hover + .menu button span:nth-child(3) {
+    transform: translateX(-5px);
   }
 
   /* ------------ OPEN / CLOSE HOVER ANIMATION ------------ */
