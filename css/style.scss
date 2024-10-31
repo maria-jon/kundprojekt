@@ -17,33 +17,34 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  #menu-button span {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
   /* ------------ BURGER HOVER ANIMATION ------------ */
   #menu-button:hover span {
-    position: relative;
     transition: all 0.3s ease-in-out;
   }
   #menu-button:hover span:nth-child(1) {
-    transform: translateX(-5px);
+    transform: translateX(-0.25rem);
   }
   #menu-button:hover span:nth-child(2) {
-    transform: translateX(5px);
+    transform: translateX(0.25rem);
   }
   #menu-button:hover span:nth-child(3) {
-    transform: translateX(-5px);
+    transform: translateX(-0.25rem);
   }
   /* ------------ OPEN / CLOSE HOVER ANIMATION ------------ */
   #menu-button.menu-open span {
-    position: absolute;
     transition: all 0.3s ease-in-out;
   }
   #menu-button.menu-open span:nth-child(2) {
     opacity: 0;
   }
   #menu-button.menu-open span:nth-child(1) {
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(1.06rem);
   }
   #menu-button.menu-open span:nth-child(3) {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(-1.06rem);
   }
   
   /* ------------ WHITE ARROW HOVER ANIMATION ------------ */
