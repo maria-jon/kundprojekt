@@ -152,16 +152,6 @@ header {
     }
 
     /* ------------ NAVBAR BUTTON ----------- */
-
-    input {
-        position: fixed;
-        z-index: 998;
-        width: 45px;
-        height: 45px;
-        opacity: 0;
-        margin: 0.3rem;
-    }
-
     button {
         width: 45px;
         height: 45px;
@@ -169,7 +159,6 @@ header {
         border: 0;
         position: fixed;
         z-index: 999;
-        pointer-events: none;
         margin: 0.3rem;
     
         span {
@@ -186,7 +175,7 @@ header {
         position: fixed;
         background-color: $purple;
         width: 100vw;
-        height: 100vh;
+        height: 100vh; 
         opacity: 0;
         transition: all 0.3s cubic-bezier(0.24, 0.8, 1, 0.76);
         visibility: hidden;
@@ -205,12 +194,16 @@ header {
             font-size: 2.5rem;
         }
     }
-    
-    input:checked + .menu nav {
-        visibility: visible;
-        opacity: 1;
+    button + .menu {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
     }
-    
+    button.menu-open + .menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
 }
 
 /* ---------------------------------------- */ 

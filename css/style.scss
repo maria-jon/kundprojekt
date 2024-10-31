@@ -18,35 +18,34 @@
 
 @media (prefers-reduced-motion: no-preference) {
   /* ------------ BURGER HOVER ANIMATION ------------ */
-  input:hover + .menu button span {
+  #menu-button:hover span {
     position: relative;
     transition: all 0.3s ease-in-out;
   }
-  input:hover + .menu button span:nth-child(1) {
+  #menu-button:hover span:nth-child(1) {
     transform: translateX(-5px);
   }
-  input:hover + .menu button span:nth-child(2) {
+  #menu-button:hover span:nth-child(2) {
     transform: translateX(5px);
   }
-  input:hover + .menu button span:nth-child(3) {
+  #menu-button:hover span:nth-child(3) {
     transform: translateX(-5px);
   }
-
   /* ------------ OPEN / CLOSE HOVER ANIMATION ------------ */
-  input:checked + .menu button span {
+  #menu-button.menu-open span {
     position: absolute;
     transition: all 0.3s ease-in-out;
   }
-  input:checked + .menu button span:nth-child(2) {
+  #menu-button.menu-open span:nth-child(2) {
     opacity: 0;
   }
-  input:checked + .menu button span:nth-child(1) {
+  #menu-button.menu-open span:nth-child(1) {
     transform: rotate(45deg);
   }
-  input:checked + .menu button span:nth-child(3) {
+  #menu-button.menu-open span:nth-child(3) {
     transform: rotate(-45deg);
   }
-
+  
   /* ------------ WHITE ARROW HOVER ANIMATION ------------ */
   .page1 {
     .arrow {

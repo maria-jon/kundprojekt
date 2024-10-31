@@ -39,22 +39,20 @@
 
 <main>
   <header>
-    <input type="checkbox" aria-label="Open menu">
-    <div class="menu">
-      <button>
+    <div class="menu2">
+      <button id="menu-button" aria-label="Open menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
-
-      <nav>
+      <nav class="menu">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#book-table">Book table</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
     <h1>Tough Cookie</h1>
   </header>
 
@@ -220,5 +218,11 @@
   </div>
 </footer>
 
+<script>
+  const menuBtn = document.querySelector('#menu-button');
+  menuBtn.addEventListener('click', () => {
+      menuBtn.classList.toggle('menu-open');
+  });
+  </script>
 </body>
 </html>
