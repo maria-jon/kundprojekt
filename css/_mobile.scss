@@ -371,3 +371,24 @@ header {
         }
     }
 }
+
+/* ----------------- FOOTER -------------------*/
+.cookies {
+    background-color: $purple;
+    .cookies-text {
+        font-family: $roboto;
+        font-size: 1rem;
+        color: #FFF;
+    }
+    button {
+        border: none;
+        border-radius: 10px;
+        color: #FFF;
+    }
+    button:first-of-type {
+        background-color: $yellow;
+    }
+    button:last-of-type {
+        background-color: $green;
+    }
+}
