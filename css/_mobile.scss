@@ -375,6 +375,15 @@ header {
 /* ----------------- FOOTER -------------------*/
 .cookies {
     background-color: $purple;
+    min-height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
     .cookies-text {
         font-family: $roboto;
         font-size: 1rem;
@@ -383,12 +392,54 @@ header {
     button {
         border: none;
         border-radius: 10px;
-        color: #FFF;
+        padding: 0 5vw;
+        color: #000;
+        font-size: 1.6rem;
+        text-transform: uppercase;
     }
     button:first-of-type {
         background-color: $yellow;
+        margin-right: 0.5rem;
     }
     button:last-of-type {
         background-color: $green;
+        margin-left: 0.5rem;
     }
 }
+
+
+/*
+
+.cookies {
+    background-color: $purple;
+    min-height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 990;
+    .cookies-text {
+        font-family: $roboto;
+        font-size: 1rem;
+        color: #FFF;
+    }
+    button {
+        border: none;
+        border-radius: 10px;
+        padding: 0 5vw;
+        color: #000;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+    }
+    button:first-of-type {
+        background-color: $yellow;
+        margin-right: 0.5rem;
+    }
+    button:last-of-type {
+        background-color: $green;
+        margin-left: 0.5rem;
+    }
+}
+*/

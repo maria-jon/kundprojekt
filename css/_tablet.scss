@@ -181,3 +181,29 @@ header {
         flex: 2;
     } 
 }
+
+/* ----------------- FOOTER -------------------*/
+.cookies {
+    min-height: 10vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .cookies-text {
+        font-size: 1rem;
+    }
+    .cookies-buttons {
+    }
+    button {
+        padding: 0 5vw;
+        font-size: 1.6rem;
+    }
+    button:first-of-type {
+        background-color: $yellow;
+        margin-right: 0.5rem;
+    }
+    button:last-of-type {
+        background-color: $green;
+        margin-left: 0.5rem;
+    }
+}
