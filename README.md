@@ -2,6 +2,8 @@
 
 School project in HTML and CSS to create a webshop for a restaurant according to a brief provided by the client. 
 
+[Link to live version](https://maria-jon.github.io/kundprojekt/)
+
 ## Tech Stack
 
 - Sass
