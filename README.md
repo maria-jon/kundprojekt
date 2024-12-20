@@ -31,6 +31,12 @@ No mobile layout was provided, but client provided layout for desktop version:
 - Animations on navigation menu and arrows
 - Accessible website 
 
+## Screenshots
+
+![Desktop version](/screenshots/chrome-desktop.png)
+
+![Mobile version](/screenshots/chrome-mobile.png)
+
 ## Authors
 
 - [@maria-jon](https://www.github.com/maria-jon)
