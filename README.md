@@ -1,1 +1,34 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3GX3QKax)
+# Website for restaruant
+
+School project in HTML and CSS to create a webshop for a restaurant according to a brief provided by the client. 
+
+## Tech Stack
+
+- Sass
+- Vanilla Javascript
+
+## Brief
+One-pager for responsive site for restaurant. 
+Goal was to make site as pixel perfect to the brief as possible.
+
+Animations for navigation menu and arrows on page, as well as a dynamic title on the first page. 
+Client provided photos and desired fonts. 
+
+No mobile layout was provided, but client provided layout for desktop version:
+
+![Design 1](/assets/design/Desktop%20-%20Menu%20open.jpg)
+
+![Design 1](/assets/design/Desktop%20-%20Page%201.jpg)
+
+![Design 1](/assets/design/Desktop%20-%20Page%202.jpg)
+
+![Design 1](/assets/design/Desktop%20-%20Page%203.jpg)
+
+## Features
+
+- Animations on navigation menu and arrows
+- Accessible website 
+
+## Authors
+
+- [@maria-jon](https://www.github.com/maria-jon)
