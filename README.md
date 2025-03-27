@@ -6,8 +6,7 @@ School project in HTML and CSS to create a webshop for a restaurant according to
 
 ## Tech Stack
 
-- Sass
-- Vanilla Javascript
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Brief
 One-pager for responsive site for restaurant. 
